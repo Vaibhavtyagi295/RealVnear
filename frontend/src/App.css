@@ -1,0 +1,83 @@
+/* src/App.css */
+
+.dashboard-paper {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styles for the Total Products and Total Views sections */
+  .dashboard-paper h5 {
+    background-color: #1976D2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .dashboard-paper .MuiTypography-subtitle1 {
+    padding: 10px;
+  }
+  /* styles.css */
+.link-no-decoration {
+  text-decoration: none;
+}
+/* Navbar styles */
+.navbar {
+  background-color: #1b3b6f; /* Dark blue color */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Yellow color on hover */
+}
+
+/* Add this CSS to your project's stylesheet */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.avatar {
+  margin: 8px;
+  background-color: #1976D2;
+}
+
+.login-form {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.submit-button {
+  margin: 24px 0 16px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 16px;
+}
+/* styles.css */
+.user-details-container {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.user-item {
+  margin-bottom: 8px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+}
